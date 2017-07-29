@@ -1,0 +1,40 @@
+.gtchat {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  z-index: 1;
+  width: 192px;
+  height: 232px;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  color: #000000;
+  font-family: arial;
+}
+.gtchat .gtchat_log {
+  color: #000000;
+  width: 192px;
+  height: 204px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  word-wrap: break-word;
+  font-size: 10pt;
+}
+.gtchat .gtchat_input {
+  position: absolute;
+  left: 1px;
+  bottom: 0px;
+  color: #000000;
+  width: 185px;
+}
+.message {
+  
+}
+.message:hover {
+  background-color: #CCCCCC;
+}
+.message .nick {
+  color: #008000;
+  font-weight: bold;
+}
